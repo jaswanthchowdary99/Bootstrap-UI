@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <head>
+      <!-- Nav-bar using bootstrap -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="BMW Logo" width="30" height="25" class="d-inline-block align-text-top">
+            <b>BMW</b>
+              </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.bmwusa.com/all-bmws/suv.html"
+                  >SUV</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.bmwusa.com/all-bmws/sedan.html"
+                  >Sedan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.bmw.com/en-au/models/1-series/bmw-1-series/bmw-1-series.html"
+                  >Hatchback</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.bmw-m.com/en/index.html"
+                  >M series</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </head>
+    
+    <main>
+      <!-- Carousel  -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images8.alphacoders.com/136/thumb-1920-1366161.png"
+              class="d-block w-100"
+              alt="bmw retro"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>RETRO</h5>
+              <p>
+                BMW's retro models embody timeless design, blending classic aesthetics with modern engineering for a nostalgic driving experience.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://car-images.bauersecure.com/wp-images/12847/56-bmw-x6-2024-side-static.jpg"
+              class="d-block w-100"
+              alt="bmw suv"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SUV</h5>
+              <p>
+                BMW's SUVs offer a blend of luxury, versatility, and performance, with advanced technology and spacious, comfortable interiors.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://4kwallpapers.com/images/wallpapers/bmw-m4-g-power-g4m-1920x1080-14767.jpg"
+              class="d-block w-100"
+              alt="bmw M series"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>M Series</h5>
+              <p>
+                BMW's M Series delivers high-performance engineering, combining precision handling, powerful engines, and motorsport-inspired design for thrilling driving dynamics.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+       <!-- Custom flex using CSS -->
+        <div class="body-2">
+         <div class="content"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9vKE1MnskL3WsTzFNgLHySrKpVr1h1xUG1gRCQK7b-R4_RoDIOEYJB2NfzxvxcDRsYY4&usqp=CAU" alt="image-1"><p>Karl Friedrich Rapp was a German founder and owner of the Rapp Motorenwerke GmbH in Munich. In time this company became BMW AG. He is acknowledged by BMW AG as an indirect founder of the company.</p></div>
+         <div class="content"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2jDO1_jgcuDPGS90mZFyIJc07pA9jsn8mtg&s" alt="image-2"><p>Franz Josef Popp was one of three men responsible for the founding of BMW AG and the First General Director of BMW AG from 1922 to 1942. A number of different candidates have been put forward as the “founders” of BMW</p></div>
+         <div class="content"><img src="https://www.geschichtewiki.wien.gv.at/images/e/ee/Camillocastiglioni.jpg" alt="image-3"><p>Camillo Castiglioni was an Italian-Austrian Jewish financier and banker, and was the wealthiest man in Central Europe during World War I. Nicknamed "Austrian Stinnes", he was active in aviation's pioneering days and invested in the arts.</p></div>
+        </div>
+    <!-- Custom grid using CSS -->
+      <div class="container">
+        <div class="body-3">
+            
+          <div class="box1">
+         <img src="https://imgd.aeplcdn.com/642x361/n/cw/ec/182785/bmw-new-5-series-dashboard17.jpeg?isig=0&wm=1&q=75" alt="img1">
+          </div>
+       
+         <div class="box2">
+         <img src="https://www.gearpatrol.com/wp-content/uploads/sites/2/2023/07/p90499807-highres-the-bmw-xm-label-red-64beeff2ccfab-jpg.webp" alt="img2">
+         </div>
+         
+         <div class="box3">
+          <img src="https://cdn.bmwblog.com/wp-content/uploads/2024/03/2024-BMW-5-Series-Sophisto-Grey-34.jpg" alt="img3">
+          </div>
+           
+          <div class="box4">
+         <img src="https://images.prismic.io/bmw-eurokarscoid/2a194b4e-21a1-46d9-a10d-75407eb3b721_BMW-M4_GT4-2023-1600-0b.jpg?auto=compress,format&rect=0,200,1600,800&w=1600&h=800" alt="img4">
+            </div>
+          
+           <div class="box5">
+         <img src="https://www.bmwusa.com/content/dam/bmw/common/future-vehicles/2022/mobile/BMW-SOC23-M2Coupe-FutureVehicles-TopFMA-Mobile.jpg.asset.1691599104325.jpg" alt="img5">
+            </div>
+           
+            <div class="box6">
+         <img src="https://htcms-prod-images.s3.ap-south-1.amazonaws.com/htmobile1/bmw_i5/images/exterior_bmw-i5_front-left-side_600x400.jpg" alt="img6">
+            </div>
+           
+            <div class="box7">
+         <img src="https://hips.hearstapps.com/hmg-prod/images/2025-bmw-i4-m50-xdrive-118-662805b48f539.jpg?crop=1.00xw:0.917xh;0,0&resize=980:*" alt="img7">
+            </div>
+          
+            <div class="box8">
+         <img src="https://cdn.motor1.com/images/mgl/pbYnyY/s3/bmw-1er-m135-xdrive-2024.jpg" alt="img8">
+            </div>
+            
+            <div class="box9">
+         <img src="https://www.motortrend.com/uploads/sites/5/2020/11/2022_BMW_iX_23.jpg?w=768&width=768&q=75&format=webp" alt="img9">
+            </div>
+
+        </div>
+      </div>
+     <!-- Cards using bootstrap -->
+      <div class="row row-cols-1 row-cols-md-3 g-1 p-5">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://www.bmw.in/content/dam/bmw/common/all-models/x-series/x6/2019/techdata/bmw-xseries-x6-technical-data-sp-xxl.jpg"
+              class="card-img-top "
+              alt="bmw x6"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>X6</b></h5>
+              <p class="card-text">The BMW X6 is a luxurious sports activity coupe that combines sleek design with powerful performance, offering exceptional handling and advanced technology for an exhilarating driving experience.</p>
+              <a href="https://www.bmwusa.com/vehicles/x-models/x6/suv/overview.html" class="btn btn-primary">More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://www.bmw.in/content/dam/bmw/common/all-models/x-series/x7/2022/highlights/bmw-x-series-x7-sp-desktop.jpg"
+              class="card-img-top"
+              alt="bmw x7"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>X7</b></h5>
+              <p class="card-text">The BMW X7 is a spacious luxury SUV, featuring a commanding presence, advanced technology, and a plush interior, providing exceptional comfort and performance for families and travelers alike.</p>
+              <a href="https://www.bmwusa.com/vehicles/x-models/x7/suv/overview.html" class="btn btn-primary">More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://www.bmw-infinitycars.in/sites/default/files/2023-10/1680x756_4.jpg"
+              class="card-img-top"
+              alt="bmw x4"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>X4</b></h5>
+              <p class="card-text">The BMW X4 is a sporty compact SUV that combines coupe-like styling with versatile performance, offering a dynamic driving experience and a luxurious interior packed with advanced technology.</p>
+              <a href="https://www.bmwusa.com/vehicles/x-models/x4/sports-activity-coupe/overview.html" class="btn btn-primary">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+     <!-- Footer using bootstrap -->
+    <footer class="bg-light text-dark text-start text-lg-start mt-2">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!" >Our Story</a></li>
+              <li><a href="#!" >Our Team</a></li>
+              <li><a href="#!" >Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Support</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!" >FAQs</a></li>
+              <li><a href="#!" >Help Center</a></li>
+              <li><a href="#!" >Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Us</h5>
+            <p>Email: example@email.com</p>
+            <p>Phone: +91 1234 567 890</p>
+          </div>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+                <p class="mb-0">&copy;2023 Complex UI. All Rights Reserved.</p>
+                <a href="#" class="btn btn-primary">Back to Top</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
